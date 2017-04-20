@@ -1,0 +1,14 @@
+{
+    "name": "timdev/doctrine-date-interval",
+    "description": "Nothing to see here",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Lieberman",
+            "email": "tim@timdev.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
