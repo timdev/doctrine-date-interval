@@ -12,7 +12,7 @@ composer.json so it's easy to pull into a project using <2.6.
 ## Installation 
 
 ```bash
-$ composer require timdev/doctrine-date-interval
+$ composer require timdev/doctrine-date-interval:0.1.2
 ```
 
 ## Usage
