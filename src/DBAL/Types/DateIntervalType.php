@@ -3,6 +3,7 @@
 namespace TimDev\Doctrine\DBAL\Types;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
+use Doctrine\DBAL\Types\Type;
 
 /**
  * Type that maps interval string to a PHP DateInterval Object.
@@ -14,7 +15,8 @@ class DateIntervalType extends Type
      */
     public function getName()
     {
-        return Type::DATEINTERVAL;
+//        return Type::DATEINTERVAL;
+        return 'dateinterval';
     }
 
     /**
