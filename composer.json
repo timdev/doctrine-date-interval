@@ -1,6 +1,8 @@
 {
     "name": "timdev/doctrine-date-interval",
-    "description": "Nothing to see here",
+    "description": "Backported Doctrine DBAL DateIntervalType for use with DBAL <2.6",
+    "keywords": ["dbal", "doctrine", "dateinterval"],
+    "homepage": "https://github.com/timdev/docrine-date-interval",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,8 +11,9 @@
             "email": "tim@timdev.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": ">=5.3.2"
+    },
     "autoload": {
         "psr-4": {"TimDev\\Doctrine\\": "src/"}
     }
